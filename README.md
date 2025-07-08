@@ -2,7 +2,7 @@
 
 
 
-A compelete room chat (front-end) for your teams and friends <3
+A compelete digikala home page (front-end) for your teams and friends <3
 
 My social accounts :
 
