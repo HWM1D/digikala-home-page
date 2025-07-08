@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دیجی‌کالا - بزرگترین فروشگاه اینترنتی ایران</title>
+    <link rel="stylesheet" href="digikala.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgMTAwIDQwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8dGV4dCB4PSI1MCIgeT0iMjQiIGZvbnQtZmFtaWx5PSJWYXppcm1hdG4iIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNlZjM5NGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPtiv24zar9uMKtqp2KfZhNinPC90ZXh0Pgo8L3N2Zz4K" alt="دیجی‌کالا">
+                </div>
+                
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="جستجو">
+                    <button class="search-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                            <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                
+                <div class="header-actions">
+                    <button class="action-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="12" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        ورود | ثبت‌نام
+                    </button>
+                    <button class="action-btn cart-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M3 3h2l.4 2M7 13h10l4-8H5.4m1.6 8L5 3H3m4 10v6a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-6M9 19.5h.01M20 19.5h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        سبد خرید
+                        <span class="cart-count">3</span>
+                    </button>
+                </div>
+            </div>
+            
+            <nav class="nav-menu">
+                <ul class="menu-list">
+                    <li><a href="#">کالای دیجیتال</a></li>
+                    <li><a href="#">خانه و آشپزخانه</a></li>
+                    <li><a href="#">مد و پوشاک</a></li>
+                    <li><a href="#">زیبایی و سلامت</a></li>
+                    <li><a href="#">کتاب و لوازم تحریر</a></li>
+                    <li><a href="#">ورزش و سفر</a></li>
+                    <li class="menu-more">
+                        <a href="#" class="more-btn">بیشتر</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Hero Slider -->
+        <section class="hero-slider">
+            <div class="container">
+                <div class="slider-wrapper">
+                    <div class="slides">
+                        <div class="slide active">
+                            <div class="slide-content">
+                                <h2>فروش ویژه گوشی‌های هوشمند</h2>
+                                <p>تا ۵۰٪ تخفیف</p>
+                                <button class="slide-btn">مشاهده محصولات</button>
+                            </div>
+                            <div class="slide-image">
+                                <div class="phone-mockup"></div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-content">
+                                <h2>لپ‌تاپ‌های گیمینگ</h2>
+                                <p>بهترین قیمت‌ها</p>
+                                <button class="slide-btn">خرید کنید</button>
+                            </div>
+                            <div class="slide-image">
+                                <div class="laptop-mockup"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="slider-btn prev">‹</button>
+                        <button class="slider-btn next">›</button>
+                    </div>
+                    <div class="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories -->
+        <section class="categories">
+            <div class="container">
+                <div class="category-grid">
+                    <div class="category-item">
+                        <div class="category-icon mobile"></div>
+                        <span>موبایل</span>
+                    </div>
+                    <div class="category-item">
+                        <div class="category-icon laptop"></div>
+                        <span>لپ‌تاپ</span>
+                    </div>
+                    <div class="category-item">
+                        <div class="category-icon home"></div>
+                        <span>خانه</span>
+                    </div>
+                    <div class="category-item">
+                        <div class="category-icon fashion"></div>
+                        <span>پوشاک</span>
+                    </div>
+                    <div class="category-item">
+                        <div class="category-icon beauty"></div>
+                        <span>زیبایی</span>
+                    </div>
+                    <div class="category-item">
+                        <div class="category-icon book"></div>
+                        <span>کتاب</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Sections -->
+        <section class="products-section">
+            <div class="container">
+                <h2 class="section-title">محصولات پرفروش</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="product-placeholder phone"></div>
+                            <div class="discount-badge">۲۵٪</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>گوشی موبایل سامسونگ Galaxy A54</h3>
+                            <div class="price-container">
+                                <span class="current-price">۱۵,۹۰۰,۰۰۰</span>
+                                <span class="currency">تومان</span>
+                            </div>
+                            <div class="original-price">۲۱,۲۰۰,۰۰۰ تومان</div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="product-placeholder laptop"></div>
+                            <div class="discount-badge">۱۵٪</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>لپ‌تاپ ایسوس VivoBook</h3>
+                            <div class="price-container">
+                                <span class="current-price">۲۵,۵۰۰,۰۰۰</span>
+                                <span class="currency">تومان</span>
+                            </div>
+                            <div class="original-price">۳۰,۰۰۰,۰۰۰ تومان</div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="product-placeholder watch"></div>
+                            <div class="discount-badge">۳۰٪</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>ساعت هوشمند اپل واچ</h3>
+                            <div class="price-container">
+                                <span class="current-price">۱۲,۶۰۰,۰۰۰</span>
+                                <span class="currency">تومان</span>
+                            </div>
+                            <div class="original-price">۱۸,۰۰۰,۰۰۰ تومان</div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="product-placeholder headphone"></div>
+                            <div class="discount-badge">۲۰٪</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>هدفون بی‌سیم سونی</h3>
+                            <div class="price-container">
+                                <span class="current-price">۳,۲۰۰,۰۰۰</span>
+                                <span class="currency">تومان</span>
+                            </div>
+                            <div class="original-price">۴,۰۰۰,۰۰۰ تومان</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products-section special">
+            <div class="container">
+                <h2 class="section-title">پیشنهاد ویژه</h2>
+                <div class="products-grid">
+                    <div class="product-card featured">
+                        <div class="product-image">
+                            <div class="product-placeholder tablet"></div>
+                            <div class="discount-badge special">۴۰٪</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>تبلت آیپد پرو ۱۲.۹ اینچ</h3>
+                            <div class="price-container">
+                                <span class="current-price">۳۶,۰۰۰,۰۰۰</span>
+                                <span class="currency">تومان</span>
+                            </div>
+                            <div class="original-price">۶۰,۰۰۰,۰۰۰ تومان</div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="product-placeholder camera"></div>
+                            <div class="discount-badge">۱۰٪</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>دوربین کانن EOS R6</h3>
+                            <div class="price-container">
+                                <span class="current-price">۸۱,۰۰۰,۰۰۰</span>
+                                <span class="currency">تومان</span>
+                            </div>
+                            <div class="original-price">۹۰,۰۰۰,۰۰۰ تومان</div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="product-placeholder console"></div>
+                            <div class="discount-badge">۵٪</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>کنسول بازی پلی‌استیشن ۵</h3>
+                            <div class="price-container">
+                                <span class="current-price">۲۸,۵۰۰,۰۰۰</span>
+                                <span class="currency">تومان</span>
+                            </div>
+                            <div class="original-price">۳۰,۰۰۰,۰۰۰ تومان</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>خدمات مشتریان</h4>
+                    <ul>
+                        <li><a href="#">پاسخ به پرسش‌های متداول</a></li>
+                        <li><a href="#">رویه‌های بازگرداندن کالا</a></li>
+                        <li><a href="#">شرایط استفاده</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>راهنمای خرید</h4>
+                    <ul>
+                        <li><a href="#">نحوه ثبت سفارش</a></li>
+                        <li><a href="#">رویه ارسال سفارش</a></li>
+                        <li><a href="#">شیوه‌های پرداخت</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>دیجی‌کالا</h4>
+                    <ul>
+                        <li><a href="#">اتاق خبر دیجی‌کالا</a></li>
+                        <li><a href="#">فروش در دیجی‌کالا</a></li>
+                        <li><a href="#">همکاری با ما</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="digikala.js"></script>
+</body>
+</html>
